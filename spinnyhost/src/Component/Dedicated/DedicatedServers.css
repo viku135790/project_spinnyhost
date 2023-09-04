@@ -1,0 +1,108 @@
+.dead-head{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  background-color: #2B3134;
+  padding: 40px;
+ 
+}
+.DedicatedServers{
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.dead-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dead-content{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  color: white;
+  padding: 50px;
+}
+.dead-content .dead-first{
+  font-size: 60px;
+  font-weight: 700;
+}
+.dead-content .dead-sec{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.sec-dedicated{
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F6F6;
+  padding-bottom: 100px;
+}
+.sec-dedicated-main{
+  height: 400px;
+  width: 900px;
+  border-radius: 30px;
+  padding: 50px;
+  background-color: white;
+  margin-top: -70px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sec-deicated-header{
+  height: auto;
+  width: auto;
+  display: flex;
+ 
+}
+.sec-deicated-first{
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+}
+.dedicated-select{
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+}
+.dedicated-select-input{
+  display: flex;
+  gap: 20px;
+}
+.dedicated-filter{
+  height: 50px;
+  border-radius: 40px;
+  outline: 0;
+  width: 300px;
+}
+.ded-data{
+  display: flex;
+  gap: 25px;
+  height: auto;
+  width: auto;
+}
+.ded-data label{
+  display: flex;
+  gap: 15px;
+}
+
+
+
+
+
+
+
+
+

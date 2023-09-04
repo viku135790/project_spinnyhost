@@ -1,0 +1,133 @@
+
+
+.AddonsSection-faq {
+  display: flex;
+  background-color: #15212a;
+  flex-wrap: wrap;
+}
+.AddonsSection-heading {
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+}
+.section-heading {
+  font-size: 32px;
+  color: white;
+  text-align: start;
+}
+.section-subheading {
+  font-size: 16px;
+  color: #808080;
+}
+.AddonsSection-tabs-header {
+  display: flex;
+  width: 60%;
+}
+
+.text-white {
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+.AddonsSection-tabs-item {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.AddonsSection-img {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.AddonsSection-img img {
+  width: 100%;
+  padding-top: 50px;
+}
+.AddonsSection-row {
+  width: 50%;
+  padding: 90px;
+  display: flex;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+  flex-direction: column;
+  text-align: start;
+
+}
+.AddonsSection-row span {
+  font-size: 24px;
+  color: white;
+}
+.AddonsSection-row p {
+  font-size: 18px;
+  color: #808080;
+}
+.AddonsSection-icon svg{
+  color: #808080;
+  font-size: 24px;
+}
+.AddonsSection-container{
+  display: flex;
+  padding: 10%;
+  width: 100%;
+}
+@media (min-width: 300px) {
+  .AddonsSection-tabs-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .AddonsSection-tabs-content {
+    margin-top: 20px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .section-heading {
+    font-size: 24px;
+  }
+
+  .section-subheading {
+    font-size: 14px;
+  }
+
+  .AddonsSection-tabs-header {
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .AddonsSection-tabs-header hr {
+    display: none;
+  }
+
+  .AddonsSection-icon {
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  .AddonsSection-tabs-item {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .AddonsSection-img {
+    width: 100%;
+  }
+
+  .AddonsSection-row {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .AddonsSection-row span {
+    font-size: 20px;
+  }
+
+  .AddonsSection-row p {
+    font-size: 16px;
+  }
+}
+

@@ -1,0 +1,150 @@
+
+.legal-container {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .Legal-header {
+    background: linear-gradient(to right, #ea5284, #a7225f);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .Legalheader {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .Legal-header p {
+    font-size: 52px;
+    font-weight: bold;
+    color: white;
+    text-align: start;
+  }
+  .Legal-search-container {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 42px;
+    border-radius: 25px;
+    text-align: left;
+    border: none;
+    background-color: white;
+  }
+  .search-input {
+    width: 500px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    outline: 0;
+    text-indent: 10px;
+  }
+  
+  .search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+  }
+  .sidebar-content {
+    display: flex;
+    background-color: aliceblue;
+    background-image: url(/public/img/motpath.svg);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+  }
+  .AllGeneral-Terms-main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    line-height: 40px;
+    
+  }
+  .sidebar {
+    height: 320px;
+    background-color: #ffffff;
+    color: #949494;
+    
+    font-size: 18px;
+    padding: 18px;
+    border-right: 1px solid #ccc;
+    border-radius: 15px;
+    text-align: start;
+  }
+  .sidebar span {
+    color: black;
+    font-size: 30px;
+  }
+  .sidebarcontent {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    width: 100%;
+    padding: 80px;
+  }
+  .menu-option {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .menu-option:hover {
+    background-color: #ddd;
+  }
+  
+  .menu-option.selected {
+    background-color: #ccc;
+  }
+  .content {
+    padding: 20px;
+  }
+  
+  @media (max-width: 1200px) {
+    .sidebar{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .sidebarcontent{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  @media (min-width:280px) and (max-width: 800px){
+    .Legal-search-container{
+      width: 200px;
+    }
+    .Legalheader{
+      height: auto;
+      width: auto;
+    }
+    .Legalheader p{
+      font-size: 30px;
+    }
+    .content .Servers-Policies{
+      padding: 30px;
+      display: flex;
+    }
+    .content .Privacy-Policy{
+      padding: 30px;
+      display: flex;
+    }
+    .content .Cookie-Statement{
+      padding: 30px;
+      display: flex;
+    }
+    .content .AllGeneral-Terms{
+      padding: 30px;
+      display: flex;
+    }
+    .content .Affiliate-Status{
+      padding: 30px;
+      display: flex;
+    }
+
+  }

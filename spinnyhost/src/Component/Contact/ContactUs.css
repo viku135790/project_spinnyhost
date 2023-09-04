@@ -1,0 +1,83 @@
+.contact-head{
+    height: 800px;
+    width: 100%;
+    background-color: #F6F6F6;
+    padding: 80px;
+ 
+}
+.contact-main{
+    height: auto;
+    width: auto;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.contact-us-head{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.contact-head-span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contact-us-head span {
+    font-size: 33px;
+    color: #EE5586;
+}
+.contact-us-head .span-p{
+    color: #7B8895;
+    font-size: 20px;
+}
+.head-span{
+    padding-top: 20px;
+}
+.contact-us-head .span-two{
+    font-size: 15px;
+    color: #0E5077;
+    font-weight: 500;
+}
+.main-form{
+    height: 100%!important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.form-group{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.form-group .form-control{
+    display: flex;
+    border-radius: 30px;
+    border: 1px solid grey;
+    outline-color: #EE5586;
+    height: 40px;
+    width: 60%;
+    text-indent: 20px;
+}
+.form-group label{
+    font-weight: 600;
+}
+.form-group textarea{
+    height: 100px;
+    width: 60%;
+    outline-color: #EE5586;
+    text-indent: 20px;
+}
+.form-group p{
+    height: 50px;
+    width: 120px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

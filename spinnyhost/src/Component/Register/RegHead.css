@@ -1,0 +1,46 @@
+.check-head{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-image: url(/public/img/banner07.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+}
+.check-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.check-content{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    color: white;
+    padding: 50px;
+}
+.check-content .check-first{
+    font-size: 60px;
+    font-weight: 700;
+}
+.check-content .check-sec{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

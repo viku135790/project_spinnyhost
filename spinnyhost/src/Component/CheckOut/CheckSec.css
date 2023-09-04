@@ -1,0 +1,252 @@
+.check-sec-child {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-color: #efefef;
+    background-image: url(/public/img/motpath.svg);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+}
+
+.check-new-div {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 40px;
+    gap: 14px;
+    background-color: white;
+    height: 100%;
+    width: auto;
+}
+
+.check-sec-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.check-sec-color {
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+    font-size: 33px;
+}
+
+.check-sec-text {
+    color: gray;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.check-sec-btn {
+    display: flex;
+    gap: 20px;
+}
+
+.check-first-btn {
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 13px;
+    background-color: #EE5586;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.check-second-btn {
+    height: 40px;
+    width: 160px;
+    border-radius: 20px;
+    font-size: 13px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+}
+
+.check-search-section {
+    height: auto;
+    width: auto;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.check-search-section p {
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    padding-left: 20px;
+    padding: 20px;
+}
+
+.check-first-cont {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+}
+
+.check-first-cont {
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+}
+
+.check-first-cont input :hover {
+    border: 2px solid red;
+}
+
+.check-first-search {
+    height: 50px;
+    width: 450px;
+    outline: 0;
+    border-radius: 20px;
+    border: 1px solid grey;
+    text-indent: 20px;
+}
+
+.check-first-cont input:hover {
+    border-color: #EE5586;
+}
+
+.check-sec-search {
+    height: 50px;
+    width: 450px;
+    outline: 0;
+    border-radius: 20px;
+    border: 1px solid grey;
+    text-indent: 20px;
+}
+
+.check-due {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.check-due .select-filter {
+    height: 50px;
+    width: 500px;
+    border-radius: 30px;
+    padding: 15px 60px 15px 30px;
+    border-radius: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #ffffff !important;
+    border: solid 1px #d8d8d8 !important;
+    box-shadow: none;
+}
+
+.total-due {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-notes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-control {
+    padding: 10px 15px;
+    outline: 0;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: "Open Sans";
+    color: #808080;
+    box-shadow: none;
+    height: 100px;
+    width: 500px;
+}
+
+textarea:focus {
+    border-color: #EE5586;
+    outline: none;
+}
+
+.order-btn {
+    height: 40px;
+    width: 180px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 13px;
+    background-color: #EE5586;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.create-acc{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+}
+
+.check-select-filter{
+    height: 50px;
+    width: 450px;
+    border-radius: 30px;
+    padding: 15px 60px 15px 30px;
+    border-radius: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #ffffff !important;
+    border: solid 1px #d8d8d8 !important;
+    box-shadow: none;
+}
+.check-country{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+}
+.check-signup{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.signup-first{
+    font-size: 20px;
+    font-weight: 500;
+}
+.check-search-section .check-pay{
+    font-size: 20px;
+    font-weight: 500;
+}
+.hr{
+    color: grey
+    ;
+}
+
+@media (max-width:480px){
+    .check-new-div{
+        width: 250px;
+        margin-left: -33px;
+    }
+}
+@media (max-width:1200px){
+    .check-first-cont {
+        height: auto;
+        width: auto;
+           display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

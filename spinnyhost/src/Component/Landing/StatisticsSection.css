@@ -1,0 +1,179 @@
+
+.StatisticsSection {
+    display: grid;
+    background-color: white;
+    padding: 50px;
+  }
+  
+  .Statistics-Section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .Statistics-client-Section{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+  
+  .statics-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  
+  .Statics-heading {
+  font-size: 32px;
+  color: #181b22;
+  }
+  
+  .Statics-subheading {
+    font-family: "Open Sans";
+    color: #808080;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .Statics-btn{
+    display: flex;
+    padding-top: 30px;
+   
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffc107;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 24px;
+    transition: background-color 0.3s ease-in-out;
+    ;
+  }
+  
+  .btn:hover {
+    background-color: grey;
+  }
+  
+  /* Styles for the Statistics information cards */
+  .Statistics-information {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 60%;
+  }
+  .Clients-inside{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: rgb(250, 246, 237);
+    border: 1px solid gray;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  .Clients-inside span{
+  color: #181b22;
+  }
+  .Clients-outside{
+    position:relative;
+    width: 140px;
+    height: 140px;
+    background-color: transparent;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid transparent;
+    border: 4px solid grey;
+    border-left:none ;
+    
+    animation: animateBorder 3s linear infinite;
+  }
+  
+  .Equipment-inside{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: rgb(250, 246, 237);
+    border: 1px solid gray;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  .Equipment-inside span{
+  color: #181b22;
+  }
+  .Equipment-outside{
+    position: relative;
+    width: 140px;
+    height: 140px;
+    background-color: transparent;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid transparent;
+    border: 4px solid grey;
+    border-left:none ;
+    border-bottom: none;
+    animation: animateBorder 3s linear infinite;
+  }
+  
+  .Projects-inside{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    background-color: rgb(250, 246, 237);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  .Projects-inside span{
+  color: #181b22;
+  }
+  .Projects-outside{
+    position: relative;
+    width: 140px;
+    height: 140px;
+    background-color: transparent;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid transparent;
+    border: 4px solid grey;
+    border-left:none ;
+    border-bottom: none;
+    border-top: none;
+    animation: animateBorder 3s linear infinite;
+  }
+  
+  .client-circle-heading{
+  color: #ee5586;
+  font-size: 20px;
+  }
+  .client-circle-subheading{
+    color: #808080;
+    font: 14px;
+  }
+  
+

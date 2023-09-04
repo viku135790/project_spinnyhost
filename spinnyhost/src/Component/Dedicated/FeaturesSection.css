@@ -1,0 +1,81 @@
+
+.FeaturesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+    padding: 120px;
+    
+}
+
+.Features-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 160px;
+}
+.FeaturesContainer-row {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-items: center;
+    background-color: transparent;
+}
+.FeaturesContainer-info-content {
+    display: flex;
+    align-items: self-start;
+}
+.FeaturesContainer-content span {
+    display: block;
+    font-size: 24px;
+}
+.FeaturesContainer-content p {
+    font-size: 18px;
+    color: #808080;
+    line-height: 1.6;
+}
+.FeaturesContainer-img {
+    text-align: center;
+    height: 100%;
+    width: 100%; 
+    padding: 80px;
+   
+}
+
+
+@media screen and (max-width: 480px) {
+    .FeaturesContainer {
+        padding: 40px; /* Further reduce padding for very small screens */
+    }
+
+    .Features-Container {
+        padding: 30px; /* Adjust padding for better spacing */
+    }
+
+    .FeaturesContainer-row {
+        text-align: center;
+        margin-bottom: 20px; /* Reduce spacing between rows on small screens */
+    }
+
+    .FeaturesContainer-info-content {
+        flex-direction: column; /* Stack content vertically on small screens */
+        align-items: center; /* Center content horizontally on small screens */
+    }
+
+    .FeaturesContainer-content span {
+        font-size: 20px; /* Slightly reduce font size for small screens */
+        margin-bottom: 5px; /* Adjust spacing for small screens */
+    }
+
+    .FeaturesContainer-content p {
+        font-size: 16px; /* Slightly reduce font size for small screens */
+    }
+
+    .FeaturesContainer-img {
+        margin-top: 10px; /* Adjust spacing above the image */
+    }
+}
+

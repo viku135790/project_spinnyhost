@@ -1,0 +1,35 @@
+
+.Affiliate-Status {
+    display: flex;
+    padding: 100px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    line-height: 40px;
+  }
+  .Affiliate-Status-header span{
+    display: flex;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #212529;
+  }
+  .Affiliate-Status-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+  
+  .Affiliate-Status-footer span {
+   color: #ee5586;
+   font-size: 20px;
+  }
+  
+  .Affiliate-Status p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #949494;
+  }
+  
+

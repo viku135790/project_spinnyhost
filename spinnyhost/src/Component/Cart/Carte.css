@@ -1,0 +1,275 @@
+
+.Cartcontainer {
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+  }
+  .Cart-container{
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+   
+  }
+  .Cartcol-container {
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .Cartcol-header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd;
+   
+  }
+  .Cartcol-header span {
+    font-size: 34px;
+    text-align: start;
+    padding-bottom: 20px;
+  }
+  .Cartcol-header p {
+    font-size: 24px;
+    text-align: start;
+    color: #533629;
+  }
+  .tablecompare {
+    width: 100%;
+   
+    border-collapse: collapse;
+  }
+  
+  .tablecompare th,
+  .tablecompare td {
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+    color: #533629;
+    border-bottom: 1px solid #ddd;
+  }
+  .PaymentMethod {
+  
+    border-bottom: 1px solid #ddd;
+    text-align: start;
+  }
+  
+  .Payment-Method-header {
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  .cart-select-filter {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .Cartorder {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  
+  .Cart-order-header {
+    font-weight: bold;
+    padding: 20px;
+   
+  }
+  
+  .order-summary {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    
+  }
+  
+  .title-table {
+    font-weight: bold;
+  }
+  .Checkout-Cart {
+    margin-right: 10px;
+  }
+  .c-green {
+    color: #28a745;
+  }
+  .Legal {
+    font-weight: bold;
+  }
+  
+  .PaymentMethod {
+    margin-top: 20px;
+  }
+  
+  .Payment-Method {
+    padding-top: 20px;
+  }
+  
+  .Payment-Method-header {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  
+  
+  .radio-group {
+    padding: 10px;;
+  }
+  
+  .tablecompar {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tablecompar td {
+    padding: 8px 10px;
+  }
+  .tablecompare {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cart-select-filter {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  .Payment-Method input[type="text"] {
+    width: 100%;
+    padding: 15px 1px;
+    border: 1px solid #ddd;
+    border-radius: 24px;
+  }
+  .Payment-Method select{
+    width: 100%;
+    padding: 15px 50px;
+    border: 1px solid #ddd;
+    border-radius: 24px;
+  }
+  .Term-con {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-label {
+    margin-left: 10px;
+  }
+  .checkbox-label {
+    font-weight: normal;
+    margin-left: 5px;
+  }
+  .Checkout-Cart,
+  .Continue-Shopping {
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .Checkout-Cart {
+    background-color: #fdd700;
+    color: black;
+    border-radius: 25px;
+  }
+  
+  .Continue-Shopping {
+    background-color: #808080;
+    border-radius: 25px;
+  }
+  .Cart-order-header {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .order-summary {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-summary td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .title-table {
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  
+
+
+  .check-head{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-color: #2B3134;
+    padding: 40px;
+}
+.check-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.check-content{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    color: white;
+    padding: 50px;
+}
+.check-content .check-first{
+    font-size: 60px;
+    font-weight: 700;
+}
+.check-content .check-sec{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+@media (max-width: 1072px){
+  tr {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+.Cartcontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
+}
+.Cartorder{
+  display: flex;
+  gap: 15px;
+}
+.Cart-order{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+}
+
+
+
+
+
+

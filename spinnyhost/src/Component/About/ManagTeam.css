@@ -1,0 +1,60 @@
+.manag-team-head{
+    background-color: #EFEFEF;
+    height:100%;
+    width:100%;
+    padding: 20px;
+
+}
+
+.manag-team-main{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.manag-team-title {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 35px;
+    font-weight: 400;
+   
+}
+.manag-team-title .team-manag{
+    color: gray;
+    font-size: 15px;
+}
+.manag-team-img-head{
+    height: auto;
+    width: auto;
+    padding:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.manag-team-img{
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    gap: 10px;
+    padding: 20px;
+    background-color: white;
+}
+.manag-team-img .supprt-txt{
+    color: grey;
+    font-style: italic;
+}
+.manag-team-img img{
+    height: 200px;
+    width: 200px;
+}
+.support-img{
+    font-size: 25px;
+}
